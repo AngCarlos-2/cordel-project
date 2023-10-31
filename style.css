@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Passion One';
+    font-size: 70px;
+    padding-top: 45px;
+}
+
+#link, a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;    
+    text-decoration: none;
+    font-size: 2.79vh;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    width: 98vw;
+}
+
+.imagem {
+    background-image: url("imagens/background001.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#fi, #fi2 {
+    width: 480px;
+    height: 580px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.284);
+}
+
+.imagem2 {
+    background-image: url("imagens/background002.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+p {
+    font-family: 'Sriracha';
+    font-size: 5.59vh;
+    padding: 1em;
+    line-height: 2em;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+#ft {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
